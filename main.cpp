@@ -2,7 +2,7 @@
 #include<ctime>
 #include<windows.h>
 #define qdo 262
-#define qre 294
+#define qre 294 
 #define qmi 330
 #define qfa 349
 #define qso 392
