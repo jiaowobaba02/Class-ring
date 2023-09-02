@@ -1,3 +1,6 @@
+/*
+ 提示：此文件需要编译为1_control.exe
+*/
 #include <cstdlib>
 #include <iostream>
 #include <windows.h>
