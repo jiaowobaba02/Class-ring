@@ -75,9 +75,10 @@ int main(int argc, char* argv[]){ // 加上int返回值类型，否则编译错�
    class_ring_input=class_ring_input +" ";
    class_ring_input=class_ring_input +  data[class_now][week+1]; // 直接拼接data[class_now][week+1]，并注意下标从0开始
    class_ring_input=class_ring_input + start_or_not;
+   class_ring_input=class_ring_input + " i";
    cout<<class_ring_input<<endl;
    
-   system(class_ring_input.c_str()); // 用c_str()方法来把string对象转换成const char*类型的指针
+   system(class_ring_input.c_str()); // 使用exec函数或者其他更高级的方法来执行命令，而不是system函数，用c_str()方法来把string对象转换成const char*类型的指针
    
 }
 return 0; // 返回0，表示程序正常结束
